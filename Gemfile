@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'middleman', '~>3.3.12'
-gem 'middleman-deploy', '~> 1.0'
-gem 'middleman-livereload', '~> 3.1.0'
-
-gem 'middleman-minify-html'
+gem 'middleman', '~> 4.2'
+gem 'middleman-autoprefixer', '~> 2.7'
+gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
+gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw, :x64_mingw]
